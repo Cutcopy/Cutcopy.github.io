@@ -24,6 +24,10 @@
     "tests"
   ],
   "devDependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "bourbon": "~4.2.3",
+    "normalize.css": "~3.0.3",
+    "fontawesome": "~4.3.0",
+    "jeet": "~6.1.2"
   }
 }
