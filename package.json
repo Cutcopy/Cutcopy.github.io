@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Cutcopy/Cutcopy.github.io/issues"
   },
-  "homepage": "https://github.com/Cutcopy/Cutcopy.github.io"
+  "homepage": "https://github.com/Cutcopy/Cutcopy.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }

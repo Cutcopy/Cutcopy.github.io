@@ -13,3 +13,7 @@ github_username:  Cutcopy
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Excludes
+exclude:
+- node_modules

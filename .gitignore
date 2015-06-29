@@ -1,4 +1,5 @@
 _site
 .sass-cache
 bower_components/
-npm_modules/
+node_modules/
+Thumbs.db
