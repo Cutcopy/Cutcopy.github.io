@@ -1,0 +1,29 @@
+{
+  "name": "Cutcopy.github.io",
+  "version": "0.0.0",
+  "homepage": "Brycestradling.com",
+  "authors": [
+    "Bryce Stradling <bryce@getvyral.com>"
+  ],
+  "description": "Personal website and blog",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "personal",
+    "portfolio",
+    "blog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  }
+}
