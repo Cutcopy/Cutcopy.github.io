@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Cutcopy/Cutcopy.github.io",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
   }
 }
