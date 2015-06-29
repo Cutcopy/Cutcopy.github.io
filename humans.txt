@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Bryce Stradling -- Creator and sole author -- Losslessdesign
 
 # THANKS
 
-    <name>
+    Bryce
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, jekyll
