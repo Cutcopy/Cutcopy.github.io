@@ -3,7 +3,7 @@ sha: null
 title: 'Making my new website'
 date: '2015-07-06'
 info: 
-comment: 'Why I choose github pages for my new website'
+comment: 'Why I chose github pages for my new website'
 tags:
   - Jekyll
   - ' blogs'
@@ -17,7 +17,7 @@ published: true
 slug: 
 
 ---
-##A new website for a new era :metal:
+###A new website for a new era :metal:
 
 I abandoned my website after only a brief time online. This was primarily due to the fact that my hosting provider was doubling the annual price of my VPS, and that the site itself didn't really suit my needs. 
 
