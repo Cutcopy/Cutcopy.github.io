@@ -1,21 +1,8 @@
 ---
-sha: null
-title: 'Making my new website'
-date: '2015-07-06'
-info: 
-comment: 'Why I chose github pages for my new website'
-tags:
-  - Jekyll
-  - ' blogs'
-  - ' github pages'
-  - ' webdesign'
-categories:
-  - Jekyll
-  - ' web design'
-  - ' github'
-published: true
-slug: 
-
+layout: post
+title:  "Using Jekyll for my new website"
+date:   2015-07-06 12:55:07
+categories: jekyll, web design, github
 ---
 ###A new website for a new era :metal:
 
