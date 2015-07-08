@@ -1,4 +1,5 @@
 ---
+layout: post
 sha: ed3749912c390043e15fa046525639434c1c147a
 title: "Be a Trello Master"
 date: '2015-07-07 20:50:00'
