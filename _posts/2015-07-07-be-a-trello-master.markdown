@@ -1,14 +1,9 @@
 ---
 sha: ed3749912c390043e15fa046525639434c1c147a
-title: 'Be a Trello Master'
+title: "Be a Trello Master"
 date: '2015-07-07 20:50:00'
-tags:
-  - Tools
-  - ' Workflow'
-  - ' Project Management'
-categories:
-  - blog
-published: true
+tags: Tools , Workflow, Project Management
+categories: blog
 ---
 If you've never used [Trello](http://trello.com) before, you're missing out. I've been using it to organize not only my work, but my life in general. Today, I convinced my boss to switch the entire team from [Basecamp](https://basecamp.com) to Trello - Not only to save our company $3,000 a year but also to make us a more efficient, happier team. 
 
