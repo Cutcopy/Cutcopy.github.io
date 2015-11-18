@@ -1,8 +1,34 @@
 <section class="splash">
 <!--
-    <div class="tri-wrapper"> 
+    <div class="tri-wrapper">
       <div class="tri-left"></div>
       <div class="tri-right"></div>
-    </div>  
+    </div>
 -->
+<div id="bookingjs">
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+  <script type="text/javascript">
+    window.timekitBookingConfig = {
+      name: 'Bryce',
+      email: 'bryce@getvyral.com',
+      apiToken: 'iIUiKnHWK6amuzOG3EUbgrNm8crHD6T9',
+      calendar: 'a2004ae1-325d-4b12-8aff-4ed778ea370e',
+      avatar: 'https://lh6.googleusercontent.com/-Urzx5-qR9zE/AAAAAAAAAAI/AAAAAAAADMo/G9_5UZ-LVI0/photo.jpg',
+      timekitFindTime: {
+        filters: {
+          and: [
+            {
+              business_hours: { }
+            },
+            {
+              exclude_weekend: { }
+            }
+          ]
+        }
+      }
+    }
+  </script>
+</div>
+
 </section>
