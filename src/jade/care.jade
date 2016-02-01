@@ -1,0 +1,77 @@
+include ./includes/mixin.jade
+
+include ./includes/head.jade
+
+body
+  //if lt IE 8
+    <p class="chromeframe">
+      You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.</p>
+  include ./includes/header.jade
+  
+
+  
+  
+  main.webflow
+    .row
+      .col.col--12-of-12
+        h2 Career Academy of Real Estate Website
+        p <strong>Brief:</strong>
+        p Career Academy of Real Estate needs a new website that is clean, modern, and navigatable. The Layout should be made with tablets in mind, as most of their students use ipads while taking the courses. Color Scheme, shall stay the same as their current branding. Must have a place for students to login to the webapp. The Eventual Prototyping must be bootstrap 3 compatible, and the HTML needs to be easily broken up so that it maybe placed into a larger PHP application.
+        br
+        a.button(href="http://careeracademyofrealestate.com/") View Final Website
+    .row
+      +work('Before', 'img/care_before.png')
+      +work('Mockup', 'img/care_devices.png')
+      +work('Home', 'img/care_desktop.jpg')
+      +work('Courses', 'img/care_courses.jpg') 
+    .row
+      .col.col--6-of-12
+        h3 Blog:
+        img(src='img/care_blog.jpg', alt="" data-toggle="modal" data-target='#Blog')
+        .modal.fade(id='Blog', tabindex="1" role="dialog" aria-labelledby="Blog")
+          .modal-dialog(role="document")
+            .modal-content
+              .modal-header
+                button.close(type="button" data-dismiss="modal" aria-label="close") 
+                  span(aria-hidden="true") &times;
+                &nbsp;  
+                strong Blog:
+              .modal-body
+                img(src="img/care_blog.jpg", alt="")
+                button.close(type="button" data-dismiss="modal" aria-label="close") 
+                  span(aria-hidden="true") Close
+                  
+      .col.col--6-of-12
+        h3 FAQS:
+        img(src='img/care_faqs.jpg', alt="" data-toggle="modal" data-target='#FAQS')
+        .modal.fade(id='FAQS', tabindex="1" role="dialog" aria-labelledby='FAQS')
+          .modal-dialog(role="document")
+            .modal-content
+              .modal-header
+                button.close(type="button" data-dismiss="modal" aria-label="close") 
+                  span(aria-hidden="true") &times;
+                &nbsp;  
+                strong FAQS:
+              .modal-body
+                img(src="img/care_faqs.jpg", alt="")
+                button.close(type="button" data-dismiss="modal" aria-label="close") 
+                  span(aria-hidden="true") Close
+    .row
+      .col.col--12-of-12
+        a(href="/") < BACK  
+  //  
+    .modal.fade#before(tabindex="1" role="dialog" aria-labelledby="before")
+      .modal-dialog(role="document")
+        .modal-content.row
+          .modal-header
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") &times;
+            strong &nbsp; Their old website:  
+          .modal-body.col--12-of-12
+            img(src="/img/andrews_before.png", alt="")
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") Close
+                      
+  include ./includes/footer.jade     

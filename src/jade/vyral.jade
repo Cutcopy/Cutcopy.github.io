@@ -1,0 +1,36 @@
+include ./includes/mixin.jade
+
+include ./includes/head.jade
+
+body
+  //if lt IE 8
+    <p class="chromeframe">
+      You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.</p>
+  include ./includes/header.jade
+  
+  main.webflow
+    .row
+      .col.col--12-of-12
+        h2 Vyral Marketing
+        p <strong>Brief:</strong>
+        p Vyral Marketing needs a versitle website with stronger branding, and organisation of it's vast content. The site should drive traffic completely through Vyral's sales process, so that when a potential client is finished going through it, they will be fully informed and ready for conversion.
+        p Requested Features Inlclude:
+        ul
+          li A Chat app for clients to seek assistance or ask questions
+          li Heavily Exhibit Vyral's sucess stories
+          li Several places for potential clients to request a sales call.
+        br
+        a.button(href="http://vyralmarketing.a2hosted.com/") View Final Website
+    .row
+      +work('Before', 'img/vyral_before.png')
+      +work('Wireframe', 'img/vyral_wireframe.png')
+      +work('Mockup', 'img/vyral_Homepage.jpg')
+      +work('Ver2', 'img/vyral_Homepage_v2.png')
+
+    .row
+      .col.col--12-of-12
+        a(href="/") < BACK  
+                      
+  include ./includes/footer.jade     

@@ -1,0 +1,47 @@
+/* Vendors - Normalize */
+@import './vendor/normalize'
+/* Vendors - Toast Grid */
+@import './vendor/toast'
+/* Vendors - Toast Grid */
+@import './vendor/bootstrap'
+//Variables
+
+// colors
+
+$black: #303030
+$grey: #D8D8D8
+$magenta: #DE2C69
+
+$primary: #DE2C69
+$primary-light: lighten($primary, 20%)
+$primary-dark: darken($primary, 20%)
+
+// width / heights
+
+$main-width: 80rem
+$main-padding: 1rem
+$main-border-radius: 5px
+$main-box-shadow: 0 0 3px black
+// transitions
+$timing: 0.3s
+
+
+// Mixins
+@mixin bottom-border
+    border-bottom: 0.5rem solid black
+
+
+/* Base Styles */
+@import './includes/base'
+/* Header */
+@import './includes/header'
+/* Navigation / Navbar */
+@import './includes/nav'
+/* About Section */
+@import './includes/about'
+/* Work Section */
+@import './includes/work'
+/* Footer */
+@import './includes/footer'
+/* Utilities */
+@import './includes/utils'

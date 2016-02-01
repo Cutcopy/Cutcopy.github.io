@@ -1,0 +1,24 @@
+section.illustration
+  .row
+    .col.col-12-of-12
+      h2 Illustration
+  hr
+  .wrapper
+    .gallery
+      #instafeed-wrapper.carousel.slide(data-ride="carousel")
+        ol.carousel-indicators
+          li(data-target="instafeed", data-slide-to="0" class="active")
+          - for( var i = 1; i <= 20; i++ )
+              li(data-target="instafeed-wrapper", data-slide-to="#{i}")
+        #instafeed.carousel-inner(role="listbox")
+          .item.active
+            img(src="http://fillmurray.com/320/320", alt="")
+            .carousel-caption
+              p One
+              
+        a(class="left carousel-control" href="#instafeed-wrapper" role="button" data-slide="prev") 
+          i.fa.fa-arrow-left
+          span.sr-only Prev             
+        a(class="right carousel-control" href="#instafeed-wrapper" role="button" data-slide="next") 
+          i.fa.fa-arrow-right
+          span.sr-only Next

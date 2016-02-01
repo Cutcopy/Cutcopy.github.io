@@ -1,0 +1,208 @@
+// body
+//   background: $primary
+//
+// svg
+//   width: 50px
+//   fill: white
+//
+// main
+//   background-color: $dark
+//   padding: 2em
+
+//mixins
+@mixin size($size)
+  height: $size
+  width: $size
+
+//Variables
+$default: rgba(pink, 0.4)
+$home: red
+$about: blue
+$work: purple
+$contact: #ff6600
+
+*
+  transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1)
+
+body
+  background: radial-gradient(orange, #ff3333, purple)
+  color: white
+  font-family: raleway, sans-serif
+  //overflow: hidden
+
+#t1
+  overflow: hidden
+  background: repeating-radial-gradient(circle, rgba(pink, 0.3), rgba(blue, 0.3) 50%, rgba(black, 0.3) 50%, rgba(black, 0.3))
+  background-size: 5px 5px
+
+
+main
+  display: flex
+  align-items: stretch
+  align-content: stretch
+  justify-content: flex-start
+  width: 400%
+  position: relative
+
+.logo
+  width: 75px
+  height: 75px
+
+nav
+  position: fixed
+  z-index: 2
+  left: 0
+  top: 0
+  background: linear-gradient(to right,$default, lighten(rgba($default, 0.6), 15%))
+  display: flex
+  align-items: center
+  align-content: center
+  height: 100vh
+  width: 15%
+  min-width: 160px
+  ul
+    list-style-type: none
+    li
+      padding: 1em
+      a
+        color: white
+        text-decoration: none
+        letter-spacing: 1.5px
+        transition: all 0.2s ease
+        position: relative
+        &:hover
+          //letter-spacing initial
+          &:before
+            visibility: visible
+            transform: scaleX(1)
+        &:before
+          content: ""
+          background: $home
+          position: absolute
+          bottom: -3px
+          left: 0
+          width: 100%
+          height: 2px
+          transform: scaleX(0)
+          transition: all .25s ease-in
+          visibility: hidden
+      .about
+        &:before
+          background: $about
+      .work
+        &:before
+          background: $work
+      .contact
+        &:before
+          background: $contact
+
+
+.page
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  align-content: center
+  height: 100vh
+  position: relative
+  font-size: 2em
+
+// 'dem paragraphs sliding in
+.second
+  transform: translateX(500%)
+  margin-left: 0.5em
+#about p, #work p, #contact p
+  transform: translateX(360%)
+  margin-left: 0.5em
+
+//Home Page
+
+#home
+  background: rgba($default, 0.5)
+
+
+#t1:target
+  nav
+    background: rgba($home, 0.6)
+    background-image: linear-gradient(to right, rgba(black, 0.8), darken(rgba($home, 0.6), 80%))
+    transition-delay: 0.5s
+  .nav-link
+    #a-home
+      color: $home
+  .page#home
+    transform: translateX(0)
+    background-color: rgba($home, 0.6)
+    .second
+      transform: translateX(0)
+      transition-delay: 0.5s
+    .first
+      display: none
+
+// About
+
+#about
+  background: rgba($about, 0.6)
+  //overflow-y scroll
+  /*p
+    height 300vh*/
+
+#t2:target
+  #t4
+    overflow-y: visible
+  .first, .fa-home
+    display: none
+  nav
+    background: rgba($about, 0.5)
+    background-image: linear-gradient(to right, rgba(black, 0.8), darken(rgba($about, 0.6), 0.8))
+    transition-delay: 0.5s
+  .nav-link
+    #a-about
+      color: $about
+  .page#about
+    transform: translateX(-100.1%)
+    p
+      transform: translateX(0)
+      transition-delay: 0.5s
+
+//Work
+
+#work
+  background: rgba($work, 0.6)
+
+#t3:target
+  .first, .fa-home
+    display: none
+  nav
+    background: rgba($work, 0.5)
+    background-image: linear-gradient(to right, rgba(black, 0.8), darken(rgba($work, 0.6), 80%))
+    transition-delay: 0.5s
+  .nav-link
+    #a-work
+      color: $work
+  .page#work
+    transform: translateX(-200.1%)
+    p
+      transform: translateX(0)
+      transition-delay: 0.5s
+
+//Contact
+
+#contact
+  background: url('http://www.gratisography.com/pictures/224_1.jpg')
+  background-size: cover
+
+#t4:target
+  .first, .fa-home
+    display: none
+  nav
+    background: rgba($contact, 0.6)
+    background-image: linear-gradient(to right, rgba(black, 0.8), darken(rgba($contact, 0.6), 80%))
+    transition-delay: 0.5s
+  .nav-link
+    #a-contact
+      color: $contact
+  .page#contact
+    transform: translateX(-300.1%)
+    p
+      transform: translateX(0)
+      transition-delay: 0.5s

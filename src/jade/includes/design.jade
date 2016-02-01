@@ -1,0 +1,41 @@
+section.design
+  .row
+    .col.col-12-of-12
+      h2 Web Design 
+        a(href="https://github.com/Cutcopy")
+          i.fa.fa-github
+        &nbsp;
+        a(href="https://www.behance.net/BryceStradling")
+          i.fa.fa-behance
+  hr
+  .wrapper
+    .gallery
+      #design.carousel.slide(data-ride="carousel")
+        ol.carousel-indicators
+          li(data-target="design", data-slide-to="0" class="active")
+          li(data-target="design", data-slide-to="1")
+          li(data-target="design", data-slide-to="2")
+        .carousel-inner(role="listbox")
+          .item.active
+            a(href="/care.html")
+              img(src="/img/CARE_b_thumb.png", alt="")
+            .carousel-caption
+              p Career Academy of Real Estate 
+          .item
+            a(href="/andrews.html")  
+              img(src="img/Andrews_b_thumb.png", alt="")
+            .carousel-caption
+              p Andrews Realty Group
+          .item
+            a(href="/vyral.html")
+              img(src="/img/vyral_b_thumb.png", alt="")
+            .carousel-caption
+              p Vyral Marketing
+        a(class="left carousel-control" href="#design" role="button" data-slide="prev") 
+          i.fa.fa-arrow-left
+          span.sr-only Prev             
+        a(class="right carousel-control" href="#design" role="button" data-slide="next") 
+          i.fa.fa-arrow-right
+          span.sr-only Next
+        
+        

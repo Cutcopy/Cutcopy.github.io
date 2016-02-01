@@ -1,0 +1,88 @@
+include ./includes/head.jade
+
+body
+  //if lt IE 8
+    <p class="chromeframe">
+      You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.</p>
+  include ./includes/header.jade
+  
+  main.webflow
+    .row
+      .col.col--12-of-12
+        h2 Andrews Realty Group Website
+        p <strong>Brief:</strong> Andrews Realty Group would like their current website(www.andrewsrealtygroup.com) To better reflect the look and feel of their current marketing efforts. Something with high impact, usability, and conversion into leads. Andrews Realty Group requires a site that: Provides a modern web presence Increases and converts visitors Offers relavent information Gives current and potential clients the means to contact the firm Website Needs 
+        p Andrews Realty Group requires a site that:
+        ul
+          li Has a new header, reflecting the current header on their videoblog, and matchs with their current social graphics as provided by vyral marketing
+          li Inline with the look and feel of their current marketing and branding.
+          li Needs a contact form for better vistor conversion.
+          li Features an informative video about the company, with a link to their videoblog, where clients can further interact with the brand.
+        p
+          br
+          a.button(href="http://andrewsrealtygroup.com") View Final Website
+    .row
+      .col.col--3-of-12
+        h3 Before:
+        img(src="/img/andrews_before.png", alt="" data-toggle="modal" data-target="#before")
+      .col.col--3-of-12
+        h3 Wireframe:
+        img(src="/img/andrews_wireframe.png", alt="" data-toggle="modal" data-target="#wireframe")
+      .col.col--3-of-12
+        h3 Mockup:
+        img(src="img/andrews_home_desktop.png", alt="" data-toggle="modal" data-target="#mockup")
+      .col.col--3-of-12    
+        h3 Team Page:
+        img(src="img/andrews_team_desktop.png", alt="" data-toggle="modal" data-target="#team")
+    .row
+      .col.col--12-of-12
+        a(href="/") < BACK  
+    .modal.fade#before(tabindex="1" role="dialog" aria-labelledby="before")
+      .modal-dialog(role="document")
+        .modal-content.row
+          .modal-header
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") &times;
+            strong &nbsp; Their old website:  
+          .modal-body.col--12-of-12
+            img(src="/img/andrews_before.png", alt="")
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") Close
+    
+    .modal.fade#wireframe(tabindex="1" role="dialog" aria-labelledby="wireframe")
+      .modal-dialog(role="document")
+        .modal-content
+          .modal-header
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") &times;
+            strong &nbsp; My inital Wireframe 
+          .modal-body
+            img(src="/img/andrews_wireframe.png", alt="")
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") Close
+    
+    .modal.fade#mockup(tabindex="1" role="dialog" aria-labelledby="mockup")
+      .modal-dialog(role="document")
+        .modal-content
+          .modal-header
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") &times;
+            strong &nbsp; The PSD Mockup  
+      .modal-body
+        img(src="/img/andrews_home_desktop.png", alt="")
+        button.close(type="button" data-dismiss="modal" aria-label="close") 
+          span(aria-hidden="true") Close
+        
+    .modal.fade#team(tabindex="1" role="dialog" aria-labelledby="team")
+      .modal-dialog(role="document")
+        .modal-content
+          .modal-header
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") &times;
+            strong &nbsp; Their Completed Team Page  
+          .modal-body
+            img(src="/img/andrews_team_desktop.png", alt="")
+            button.close(type="button" data-dismiss="modal" aria-label="close") 
+              span(aria-hidden="true") Close                      
+  include ./includes/footer.jade     
