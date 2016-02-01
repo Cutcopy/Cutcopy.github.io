@@ -6,6 +6,11 @@
   position: relative
   -webkit-animation: logo 3s ease-in forwards
   animation: logo 3s ease-in forwards
+  &:hover
+    fill: white !important
+    stroke: $primary
+    stroke-width: 10px
+
 @-webkit-keyframes logo
   0%
     fill: white
@@ -15,7 +20,7 @@
   100%
     fill: black
     bottom: 0rem
-    
+
 @keyframes logo
   0%
     fill: white
