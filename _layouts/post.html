@@ -1,15 +1,35 @@
 ---
-layout: default
+layout: post
 ---
-<div class="post">
+<!DOCTYPE html>
+<html lang="en">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bryce Stradling - {{ page.title }}</title>
+    <meta name="description" content="Designer, Illustator and maker of other pretty things">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../../css/main.css">
+  </head>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <body>
+    {% include header.html %}
+    <main>
+      <section class="post row">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </section>
+    </main>
+    {% include footer.html %}
+  </body>
 
-</div>
+</html>
