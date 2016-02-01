@@ -1,0 +1,39 @@
+footer
+  min-height: 200px
+  background: black
+  color: white
+  text-align: center
+  padding: $main-padding
+
+.top
+  padding-left: $main-padding
+  display: inline-block
+  -webkit-animation: bob 3s infinite
+  animation: bob 3s infinite
+  a
+    &:visited
+      color: $primary
+
+@-webkit-keyframes bob
+  0%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+  50%
+    -webkit-transform: scale(1.2)
+    transform: scale(1.2)
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+
+@keyframes bob
+  0%
+    transform: scale(1)
+  50%
+    transform: scale(1.2)
+  100%
+    transform: scale(1)
+
+@media (max-width: 400px)
+  footer .contact-info
+    strong
+      display: block

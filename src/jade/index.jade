@@ -9,44 +9,8 @@ body
   include ./includes/header.jade
   
   main
-    section.about
-      .row
-        .col.col--4-of-12
-          a(href="https://www.instagram.com/brycestradling/")
-            img.headshot(src="/img/b_photos.jpg", alt="My beautiful face")
-        .col.col--8-of-12
-          p.contact-info
-            p
-              strong
-                a(href="tel:+14024154753") 402-415-4753
-            p
-              strong
-                a(href="mailto:hello@brycestradling.com") hello@brycestradling.com
-          ul.socials
-            li
-              a(href="https://www.behance.net/BryceStradling")
-                i.fa.fa-behance
-            li
-              a(href="https://github.com/Cutcopy")
-                i.fa.fa-github
-            li
-              a(href="http://codepen.io/Cutcopy/")
-                i.fa.fa-codepen   
-            li
-              a(href="https://twitter.com/losslessdesign")
-                i.fa.fa-twitter
-            li
-              a(href="https://www.linkedin.com/in/bryce-stradling-9808b675")
-                i.fa.fa-linkedin
-               
-          p.bio Hi I'm Bryce, I'm a Graphic designer, font-end developer, illustrator, photographer and maker of other pretty things. I'm one of those people who isn't happy unless I'm learning something and using what I know to making things. I believe design, coding, engineering, etc. are all creative elements built fom the need to solve problems. Design is simply problem solving done beautifully. While many people talk of the need to overly specialize in your profession, I think this is misguided. It might make you easier to place and find a job, but the creative process is such that all previous experiences and knowledge can be drawn upon to find an elegant solution.
-          
-          p.bio My time as a musician certainly made video editing easier. The Animations I made in After Effect directly influence my use of them in user interfaces. I might not be the best knife, but I have a toothpick included if you need one. That's why I try and experience as many different things as possible, and have a wide variety of skills. This site is meant to showcase that. 
-          
-          p.bio I hope you enjoy my work. Feel free to shoot me an <a href="mailto:hello@brycestradling.com">email</a> if you have any feedback, or if you'd like to work together. Check back later, I'll be adding stuff as I get the chance.
-          
-          p
-            a.button(href="img/Bryce_Stradling _RESUME.pdf") Download My Resume
+    include ./includes/about.jade
+    
           //
             .row
               form(action="#" method="post" class="contact-form")

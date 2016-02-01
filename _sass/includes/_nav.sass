@@ -1,0 +1,41 @@
+header
+  img
+    width: 100%
+
+.main-nav
+  list-style-type: none
+  text-align: center
+  li
+    display: inline-block
+    padding: 1rem
+    &:nth-child(3)
+      background: $grey
+      height: 8.7rem
+      width: 8.7rem
+      border-radius: 50%
+      text-align: center
+      line-height: 7.2rem
+      box-shadow: 0 0 3px 1px rgba($black, 0.5)
+    a
+      color: white
+      text-decoration: none
+      padding: 0.5rem
+      transition: 0.2s linear
+      transform-origin: bottom bottom
+      border: 1px solid white
+      border-radius: 50%
+      &:hover
+        background: $primary-dark
+        color: $primary-light
+        border: 1px solid $primary-dark
+      i
+        height: 25px
+        width: 25px
+
+    h1
+      height: 7.2rem
+      width: 7.2rem
+      background: $primary-dark
+      box-shadow: 0 0 3px $black
+      font-size: 1rem
+      margin: 0 auto
