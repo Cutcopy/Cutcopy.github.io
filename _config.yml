@@ -16,7 +16,7 @@ markdown_ext: "markdown, md"
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
+highlighter: rouge
 
 gems:
   - jemoji
