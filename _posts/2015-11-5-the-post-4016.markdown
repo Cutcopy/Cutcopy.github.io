@@ -1,11 +1,11 @@
 ---
-date: '2015-11-5'
+title: 'The Eternal Strain of Personal Branding'
+date: 2015-11-5 20:50:00
+type: post
 layout: post
 published: true
 tags: Logo Design, Branding
-title: 'The Eternal Strain of Personal Branding'
-type: post
-
+categories: blog
 ---
 So recently I've been trying to ramp up my personal brand. It's an often neglected part of my career as a designer (hell just look at my website), but a completely necessary one. Everyone has a personal brand. I don't care if you work nights at the local landfill. How you walk, talk and present yourself. The cloths you choose to wear, your demeanor,  how much you care about something or not at all.
 
