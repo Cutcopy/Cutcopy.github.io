@@ -1,11 +1,30 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bryce Stradling - Creative</title>
-    <meta name="description" content="Designer, Illustator and maker of other pretty things">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{site.description}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main.css">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:url" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="description" content="Graphic Designer, Photographer and maker of other pretty things" />
+    <meta name="twitter:description" content="Graphic Designer, Photographer and maker of other pretty things" />
+    <meta property="og:description" content="Graphic Designer, Photographer and maker of other pretty things"/>
+    <meta itemprop="description" content="Graphic Designer, Photographer and maker of other pretty things">
+    <meta property="og:site_name" content="Bryce Stradling - Creative"/>
+    <meta property="og:locale" content="en_US" />
+    <meta name="content-language" content="en_US">
+    <meta name="author" content="Bryce Stradling">
+    <meta name="web_author" content="Bryce Stradling">
+    <meta name="copyright" content="Bryce Stradling">
+    <meta property="fb:admins" content="bryce.stradling"/>
+    <meta name="twitter:creator" content="@losslessdesign" />
+    <meta name="twitter:site" content="@losslessdesign" />
+    <link rel="author" href="https://plus.google.com/+BryceStradling"/>
   </head>
