@@ -2,10 +2,12 @@
 title: Bryce Stradling - Creative
 email: brycestradling@gmail.com
 description: Designer, Illustrator, Photographer, and maker of other pretty things.
+timezone: US/Central
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://brycestradling.com" # the base hostname & protocol for your site
 twitter_username: losslessdesign
 github_username:  Cutcopy
+
 
 #Handling Reading
 encoding: "utf-8"
