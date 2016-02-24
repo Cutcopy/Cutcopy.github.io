@@ -14,12 +14,15 @@ I'm *trying* to be better, and while pondering on the topic, I remember what I l
 They are creative enterprises, and while not as corporate and dry and some blogs - why not have fun with mine and share what I enjoy creating: silly, silly GIFs.
 
 Enjoy:
+
 ![Scott grew a mustache](/img/Scott_running.gif)
 ![Rumble In the Bronx GIF](/img/bronx_skis.gif)
 ![Happy Fathers Day](https://assets.ello.co/uploads/asset/attachment/2672785/ello-optimized-e30f05eb.gif)
 ![Internet Explorer's revenge](https://assets.ello.co/uploads/asset/attachment/2476519/ello-optimized-e27e4b0a.gif)
 ![Ninja Turtles - Lets Go for it](/img/lets_go_for_it.gif)
+![Oketo's CD Release Party](/img/OKETO+BOTH.gif)
 ![It's Snowing!](/img/its-snowing.gif)
+
 <style>
  img {
     max-width: 50%;
