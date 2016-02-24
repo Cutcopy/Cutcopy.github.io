@@ -1,4 +1,17 @@
 ---
+<<<<<<< Updated upstream:_posts/2015-11-5-the-post-4016.markdown
+=======
+categories:
+  - Blog Posts
+comment: 'Logo Design, Branding'
+date: '2015-11-5'
+info:
+layout: post
+published: true
+sha: 637132f3caa3fd896730cc0299526c99c8c88f25
+slug: the-post-4016
+tags: Logo Design, Branding
+>>>>>>> Stashed changes:_posts/2015-11-5-the-post-4016.md
 title: 'The Eternal Strain of Personal Branding'
 date: 2015-11-5 20:50:00
 type: post
