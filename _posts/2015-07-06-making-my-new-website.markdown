@@ -2,6 +2,7 @@
 layout: post
 title:  "Using Jekyll for my new website"
 date:   2015-07-06 12:55:07
+author: Bryce Stradling
 tags: Jekyll, Web Design, Github
 categories: blog
 ---

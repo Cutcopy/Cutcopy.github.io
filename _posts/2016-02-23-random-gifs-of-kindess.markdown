@@ -4,6 +4,7 @@ date: 2016-02-23 18:25:00
 type: post
 layout: post
 published: true
+author: Bryce Stradling
 tags: fun, creativeworks
 categories: blog
 ---

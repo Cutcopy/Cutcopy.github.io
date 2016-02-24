@@ -4,6 +4,7 @@ date: 2015-11-5 20:50:00
 type: post
 layout: post
 published: true
+author: Bryce Stradling
 tags: Logo Design, Branding
 categories: blog
 ---

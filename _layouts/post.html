@@ -18,13 +18,13 @@ layout: post
 
   <body>
     {% include header.html %}
-    <main>
+    <main itemscope='Article' itemtype='http://schema.org/Article'>
       <section class="post row">
         <header class="post-header">
-          <h1 class="post-title">{{ page.title }}</h1>
-          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+          <p class="post-meta" itemprop="author">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
-        <article class="post-content">
+        <article class="post-content" itemprop="articlebody">
           {{ content }}
         </article>
       </section>
