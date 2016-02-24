@@ -6,9 +6,10 @@ author: Bryce Stradling
 tags: Jekyll, Web Design, Github
 categories: blog
 ---
-###A new website for a new era :metal:
 
 I abandoned my website after only a brief time online. This was primarily due to the fact that my hosting provider was doubling the annual price of my VPS, and that the site itself didn't really suit my needs.
+
+###A new website for a new era :metal:
 
 I built it initially so out of the box anyone could jump in and use it (plain ol' css, html, and some jquery) , but this came with some serious downsides. The build was plain css, html and some jquery. No blog, just a static one page theme. I do mostly theming for my job - so all the pieces were made interchangeably. Switch out the logo, images, and some copy and you're good to go.  This made the site itself too generic and failed to reflect my personality.
 
