@@ -10,10 +10,6 @@
 @import './vendor/bootstrap'
 
 
-// Mixins
-@mixin bottom-border
-  border-bottom: 0.5rem solid black
-
 
 $black: #303030
 $grey: #D8D8D8
@@ -30,6 +26,13 @@ $main-border-radius: 5px
 $main-box-shadow: 0 0 3px black
 // transitions
 $timing: 0.3s
+
+
+
+// Mixins
+@mixin bottom-border
+  border-bottom: 0.5rem solid $black
+
 
 /* Base Styles */
 @import './includes/base'

@@ -1,8 +1,8 @@
 # Cutcopy.github.io
 
-Dependancies - 
-- Bower
-  - Jeet
-  - Jquery
-  - fontawesome icons
-  - normalize.css
+Dependancies -
+- A little bit o' boostrap
+- Toast.css
+- Jquery
+- fontawesome icons
+- normalize.css

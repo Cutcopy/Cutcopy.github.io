@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <!-- All that meta crap -->
     <meta name="description" content="{{site.description}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:url" content="{{site.url}}{% if page.url %}{{ page.url }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:description" content="{{site.description}}">
     <meta itemprop="description" content="{{site.description}}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -21,12 +24,21 @@
     <meta name="web_author" content="Bryce Stradling">
     <meta name="copyright" content="Bryce Stradling">
     <meta property="fb:admins" content="bryce.stradling">
-    <!-- Twitter -->
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:url" content="{{site.url}}{% if page.url %}{{ page.url }}{% endif %}">
-    <meta name="twitter:description" content="{{site.description}}">
-    <meta name="twitter:image" content="https://brycestradling.com/img/logo.png">
-    <meta name="twitter:creator" content="@losslessdesign">
-    <meta name="twitter:site" content="@losslessdesign">
+
+    <link type="text/plain" rel="author" href="http://brycestradling.com/humans.txt">
     <link rel="author" href="https://plus.google.com/+BryceStradling"/>
+
+    <meta property="twitter:card" content="summary_large_image">
+  	<meta property="twitter:site" content="@losslessdesign">
+  	<meta property="twitter:creator" content="@losslessdesign">
+  	<meta property="twitter:url" content="http://brycestradling.com">
+  	<meta property="twitter:domain" content="Brycestradling.com">
+  	<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  	<meta property="twitter:description" content="{{site.description}}">
+  	<meta property="og:type" content="website">
+  	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  	<meta property="og:description" content="{{site.description}}">
+  	<meta property="og:url" content="http://brycestradling.com">
+  	<meta property="og:site_name" content="{{site.title}}">
+  	<meta property="og:image" content="https://brycestradling.com/img/logo.png">
   </head>
