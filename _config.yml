@@ -21,7 +21,9 @@ highlighter: rouge
 
 gems:
   - jemoji
-
+  - jekyll-sitemap
+  - octopress-autoprefixer
+  
 # Excludes
 exclude:
   - node_modules
