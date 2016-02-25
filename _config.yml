@@ -1,7 +1,7 @@
 # Site settings
-title: Bryce Stradling - Creative
+title: Bryce Stradling - Graphic Designer
 email: brycestradling@gmail.com
-description: Designer, Illustrator, Photographer, and maker of other pretty things.
+description: Omaha Based Graphic Designer, Front End Developer, Photographer, Illustrator, and Animator. Let's make something beautfiul.
 timezone: US/Central
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://brycestradling.com" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ gems:
   - jemoji
   - jekyll-sitemap
   - octopress-autoprefixer
-  
+
 # Excludes
 exclude:
   - node_modules
