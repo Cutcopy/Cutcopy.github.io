@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
   <channel>
     <title>San Francisco Real Estate Podcast</title>
     <link>http://giant-pepper.cloudvent.net</link>
@@ -7,9 +7,9 @@
     <description>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Durwin Homes Group - your professional San Francisco Real Estate Agents.</description>
     <language>en</language>
     <managingEditor>Durwin Cheung</managingEditor>
-    <lastBuildDate>2016-03-23 13:10:48 -0500</lastBuildDate>
+    <lastBuildDate>2016-03-23 14:18:02 -0500</lastBuildDate>
     <media:copyright>Durwin Cheung</media:copyright>
-    <media:thumbnail url="http://giant-pepper.cloudvent.net/img/podcast.jpg"/>
+    <media:thumbnail url="http://i.imgur.com/jJxfq9v.jpg"/>
     <media:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category>
     <itunes:owner>
@@ -18,13 +18,11 @@
     </itunes:owner>
     <itunes:author>Durwin Cheung</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://giant-pepper.cloudvent.net/img/podcast.jpg"/>
+    <itunes:image href="http://i.imgur.com/jJxfq9v.jpg"/>
     <itunes:keywords>Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer</itunes:keywords>
     <itunes:subtitle>Learn all the tips, tricks and more for buyers and sellers in the San Francisco Area Real Estate Market</itunes:subtitle>
     <itunes:summary>If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Durwin Homes Group - your professional San Francisco Real Estate Agents.</itunes:summary>
-
-      <itunes:category text=""/>
-
+      <itunes:category text="News &amp; Politics"/>
 
       <item>
         <title>Fairness, fondness, decency - I know not</title>
