@@ -1576,7 +1576,7 @@ var feed = new Instafeed({
         // normal slider template: '<div class="item"><img class="insta-photo" src="{{image}}"></div>',
         template: '<div class="instaphoto"><a href="{{link}}"><img src="{{image}}"></a></div>',
         resolution: 'low_resolution',
-        clientId: 'b13d92eda3a244e69daa44304a832de4'
+        clientId: 'd042588d0a25445f99fd237e28c67933'
     });
     feed.run();
 // Google analytics
